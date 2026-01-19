@@ -1,5 +1,9 @@
 name: Build OpenDock (Windows Installer)
 
+permissions:
+  contents: write
+
+
 on:
   push:
     tags:
